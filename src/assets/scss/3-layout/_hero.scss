@@ -1,0 +1,43 @@
+// hero
+
+.hero {
+  display: flex;
+  // flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+  // align-content: center;
+}
+
+.hero-wrapper {
+  height: auto;
+}
+
+.hero--btn {
+  color: $light !important;
+  background-color: $primary !important;
+  border: none;
+  border-radius: 0;
+}
+
+.hero--btn:hover {
+  color: $primary !important;
+  background-color: $secondary !important;
+}
+
+.hero_header--orange {
+  color: #f7c08a;
+}
+
+.hero_header--bold {
+  font-weight: bold;
+}
+
+.image {
+  // background-image: url(../images/showcase.jpg);
+  width: 100vw;
+  height: 80vh;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}

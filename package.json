@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "sass": "sass --watch src/assets/scss:src/assets/css"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +16,9 @@
     "jquery": "^3.6.0",
     "parcel": "^2.0.0-rc.0",
     "sass": "^1.37.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0"
   }
 }
