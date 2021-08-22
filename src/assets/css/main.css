@@ -10283,26 +10283,40 @@ template {
   color: #ffffff;
 }
 
+.spacing_m-tb-10 {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.spacing_p-tb-10 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.spacing_p-tb-20 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .spacing_p-tb-50 {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
 }
 
-.spacing_p-b-20 {
-  padding-bottom: 1.25rem;
-}
-
-.spacing_m-tb-10 {
-  margin-top: 0.625rem;
-  margin-bottom: 0.625rem;
+.spacing_p-b-146 {
+  padding-bottom: 9.125rem;
 }
 
 .spacing_p-b-30 {
   padding-bottom: 1.875rem;
 }
 
-.spacing_p-b-146 {
-  padding-bottom: 9.125rem;
+.spacing_p-b-20 {
+  padding-bottom: 1.25rem;
+}
+
+.spacing_p-b-14 {
+  padding-bottom: 0.875rem;
 }
 
 .spacing_p-t-58 {
@@ -10379,6 +10393,17 @@ template {
   height: 100%;
 }
 
+.col2_btn--color {
+  color: #333333;
+  background: #f8f9fa;
+  border-radius: 0;
+  border: none;
+}
+
+.col2_btn--color:hover {
+  background: #f7c08a;
+}
+
 .jumbotron--hero {
   background-image: url("../images/showcase.jpg");
   background-repeat: no-repeat;
@@ -10391,6 +10416,11 @@ template {
 
 .nav-link--active {
   color: #f7c08a !important;
+}
+
+.card-body--no-border {
+  border: none;
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

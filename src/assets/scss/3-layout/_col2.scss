@@ -1,0 +1,12 @@
+// col2
+
+.col2_btn--color {
+  color: $primary;
+  background: $light;
+  border-radius: 0;
+  border: none;
+}
+
+.col2_btn--color:hover {
+  background: $secondary;
+}
