@@ -10267,6 +10267,10 @@ template {
   display: none;
 }
 
+.font-14 {
+  font-size: 0.875rem;
+}
+
 .font-16 {
   font-size: 1rem;
 }
@@ -10279,6 +10283,10 @@ template {
   font-size: 1.5rem;
 }
 
+.font-40 {
+  font-size: 2.5rem;
+}
+
 .font-color-white {
   color: #ffffff;
 }
@@ -10286,6 +10294,10 @@ template {
 .spacing_m-tb-10 {
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
+}
+
+.spacing_m-b-40 {
+  margin-bottom: 2.5rem;
 }
 
 .spacing_p-tb-10 {
@@ -10301,6 +10313,11 @@ template {
 .spacing_p-tb-50 {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
+}
+
+.spacing_p-lr-80 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .spacing_p-b-146 {
@@ -10328,6 +10345,18 @@ template {
   padding-right: 1.875rem;
 }
 
+.spacing_p-all-20 {
+  padding: 1.25rem;
+}
+
+.spacing_p-r-20 {
+  padding-right: 1.25rem;
+}
+
+.spacing_p-l-10 {
+  padding-left: 0.625rem;
+}
+
 .active,
 .nav-link:hover {
   color: #f7c08a !important;
@@ -10351,12 +10380,6 @@ template {
   color: #f7c08a;
   text-decoration: none;
   background: #444;
-}
-
-.hero {
-  display: flex;
-  width: 100vw;
-  height: 80vh;
 }
 
 .hero-wrapper {
@@ -10404,6 +10427,16 @@ template {
   background: #f7c08a;
 }
 
+.testimory-media-height {
+  max-height: 3rem;
+}
+
+.testimony-bg {
+  background-image: url(../images/test-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .jumbotron--hero {
   background-image: url("../images/showcase.jpg");
   background-repeat: no-repeat;
@@ -10421,6 +10454,32 @@ template {
 .card-body--no-border {
   border: none;
   border-radius: 0;
+}
+
+.col-photo {
+  background-image: url(../images/photo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.col-border--none {
+  border-radius: 0;
+  border: none;
+}
+
+.media_image--size {
+  width: 90px;
+  height: auto;
+}
+
+.media_image--shape {
+  border-radius: 50%;
+}
+
+.media--width {
+  width: 85%;
 }
 
 /*# sourceMappingURL=main.css.map */

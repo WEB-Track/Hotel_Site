@@ -7,6 +7,10 @@
   margin-bottom: 0.625rem;
 }
 
+.spacing_m-b-40 {
+  margin-bottom: 2.5rem;
+}
+
 // padding
 
 .spacing_p-tb-10 {
@@ -22,6 +26,11 @@
 .spacing_p-tb-50 {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
+}
+
+.spacing_p-lr-80 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .spacing_p-b-146 {
@@ -47,4 +56,16 @@
 .spacing_p-lr-30 {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
+}
+
+.spacing_p-all-20 {
+  padding: 1.25rem;
+}
+
+.spacing_p-r-20 {
+  padding-right: 1.25rem;
+}
+
+.spacing_p-l-10 {
+  padding-left: 0.625rem;
 }
