@@ -20,6 +20,13 @@
   margin-bottom: 3.125rem;
 }
 
+.spacing_m-b-30 {
+  margin-bottom: 1.875rem;
+}
+.spacing_m-t-16 {
+  margin-top: 1rem;
+}
+
 // padding
 
 .spacing_p-tb-10 {
@@ -42,6 +49,15 @@
   padding-right: 5rem;
 }
 
+.spacing_p-lr-30 {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+.spacing_p-lr-20 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .spacing_p-b-146 {
   padding-bottom: 9.125rem;
 }
@@ -58,8 +74,16 @@
   padding-bottom: 0.875rem;
 }
 
+.spacing_p-b-10 {
+  padding-bottom: 0.625rem;
+}
+
 .spacing_p-t-58 {
   padding-top: 3.625rem;
+}
+
+.spacing_p-t-20 {
+  padding-top: 1.25rem;
 }
 
 .spacing_p-lr-30 {
