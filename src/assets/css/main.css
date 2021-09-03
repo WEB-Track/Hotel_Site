@@ -10547,4 +10547,27 @@ template {
   width: 85%;
 }
 
+@media (max-width: 992px) {
+  .carousel-caption--highlight {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.carousel-caption--external {
+  height: 350px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  line-height: 1.8rem;
+}
+@media (min-width: 768px) {
+  .carousel-caption--external {
+    display: none;
+  }
+}
+
+.carousel-caption--external-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /*# sourceMappingURL=main.css.map */
