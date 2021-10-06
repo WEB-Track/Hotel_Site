@@ -1,9 +1,12 @@
 // status
 
-.active,
-.nav-link:hover {
+.active {
   color: $secondary !important;
-  background: #444 !important;
+  background: $dark !important;
+}
+.nav-link:hover {
+  color: $light !important;
+  background: $link-color !important;
 }
 
 .about_btn {

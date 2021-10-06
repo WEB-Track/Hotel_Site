@@ -2,12 +2,12 @@
 
 .carousel-caption--highlight {
   @media (max-width: 992px) {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
   }
 }
 
 .carousel-caption--external {
-  height: 350px;
+  min-height: 400px;
   padding-top: 10px;
   padding-bottom: 15px;
   line-height: 1.8rem;
@@ -20,4 +20,15 @@
 .carousel-caption--external-header {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.carousel-indicators--button li {
+  width: 5px;
+  height: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.carousel-indicators--button .active {
+  background-color: $warning !important;
 }
